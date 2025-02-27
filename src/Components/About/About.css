@@ -11,7 +11,7 @@
     position: relative;
 }
 
-.about-title hr {
+/* .about-title hr {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -20,7 +20,7 @@
     background: #B415FF;
     border: 0px;
     width: 200px;
-}
+} */
 
 .about-title h1 {
     padding: 0px 30px;
@@ -28,12 +28,12 @@
     font-weight: 600;
 }
 
-/* .about-title img {
+.about-title img {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: -1;
-} */
+}
 
 .about-sections {
     display: flex;

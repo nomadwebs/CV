@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-//import theme_pattern from '../../assets/pattern.svg'
+import theme_pattern from '../../assets/theme_pattern.svg'
 import profile_img from '../../assets/profile1.jpeg'
 
 const About = () => {
@@ -8,7 +8,7 @@ const About = () => {
         <div className='about'>
             <div className="about-title">
                 <h1>About me</h1>
-                <hr className='decoration' />
+                <img src={theme_pattern} alt="" />
             </div>
             <div className="about-sections">
                 <div className="about-left">
