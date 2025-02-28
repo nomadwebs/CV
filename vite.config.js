@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: '5151',
-    host: '0.0.0.0'
+    host: '0.0.0.0',
+    allowedHosts: ['srv729858.hstgr.cloud'] // Agrega aquí el host permitido
   },
 })
