@@ -1,8 +1,8 @@
-import About from './About/About.jsx'
-import Hero from './Hero/Hero.jsx'
-import MyWork from './MyWork/MyWork.jsx'
-import Services from './Services/Services.jsx'
-import Navbar from './Navbar/NavBar.jsx'
+import About from './About/About'
+import Hero from './Hero/Hero'
+import MyWork from './MyWork/MyWork'
+import Services from './Services/Services'
+import Navbar from './Navbar/Navbar'
 
 export {
     About,
