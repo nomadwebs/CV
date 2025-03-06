@@ -1,7 +1,4 @@
 import React from 'react'
-import { useForm, ValidationError } from '@formspree/react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 import './Contact.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
@@ -9,16 +6,16 @@ import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
 
 const Contact = () => {
-    const [state, handleSubmit] = useForm('mwplepqb')
+    /* const [state, handleSubmit] = useForm('mwplepqb')
     if (state.succeeded) {
         return (
             <div className="success-message">
-                <FontAwesomeIcon icon={faCheckCircle} className="success-icon" />
+                <img src={mail_icon} alt="mail success" className="success-icon" />
                 <h2>Thanks for your message!</h2>
                 <p>I'll get back to you soon.</p>
             </div>
         )
-    }
+    } */
 
     return (
         <div id='contact' className="contact">
@@ -44,30 +41,20 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <form className='contact-right' onSubmit={handleSubmit}>
+                <form className='contact-right' action="https://formspree.io/f/mwplepqb" method="POST">
                     <label htmlFor="name">Your Name</label>
                     <input type="text" id='name' name='name' placeholder='your name' />
 
                     <label htmlFor="email">Your Email</label>
                     <input type="email" placeholder='Your best email' id='email' name='email' />
-                    <ValidationError
-                        prefix="Email"
-                        field="email"
-                        errors={state.errors}
-                    />
 
                     <label htmlFor="message">Write your message</label>
                     <textarea name="message" id="message" rows='8' placeholder='Enter your message'></textarea>
-                    <ValidationError
-                        prefix="Message"
-                        field="message"
-                        errors={state.errors}
-                    />
 
-                    <button type='submit' disabled={state.submitting} className='contact-submit'>Send</button>
+                    <button type='submit' className='contact-submit'>Send</button>
                 </form>
             </div>
-        </div >
+        </div>
     )
 }
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import AnchorLink from "react-anchor-link-smooth-scroll"
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import underline from '../../assets/nav_underline.svg'
@@ -12,13 +12,13 @@ const Navbar = () => {
         <div className="navbar">
             <img src={logo} alt="logo" className="logo" />
             <ul className="nav-menu">
-                <li><AnchorLink className='anchor-link' href='#home'><p onClick={() => setMenu('home')}>Home</p></AnchorLink>{menu === 'home' ? <img src={underline} alt='undeline menu line' /> : <></>}</li>
-                <li><AnchorLink className='anchor-link' href='#about'><p onClick={() => setMenu('about')}>About</p></AnchorLink>{menu === 'about' ? <img src={underline} alt='undeline menu line' /> : <></>}</li>
-                <li><AnchorLink className='anchor-link' href='#services'><p onClick={() => setMenu('services')}>Services</p></AnchorLink>{menu === 'services' ? <img src={underline} alt='undeline menu line' /> : <></>}</li>
-                <li><AnchorLink className='anchor-link' href='#portfolio'><p onClick={() => setMenu('portfolio')}>Portfolio</p></AnchorLink>{menu === 'portfolio' ? <img src={underline} alt='undeline menu line' /> : <></>}</li>
-                <li><AnchorLink className='anchor-link' href='#contact'><p onClick={() => setMenu('contact')}>Contact</p></AnchorLink>{menu === 'contact' ? <img src={underline} alt='undeline menu line' /> : <></>}</li>
+                <li><Link to="home" smooth={true} duration={500} onClick={() => setMenu('home')}><p>Home</p></Link>{menu === 'home' ? <img src={underline} alt='underline menu line' /> : <></>}</li>
+                <li><Link to="about" smooth={true} duration={500} onClick={() => setMenu('about')}><p>About</p></Link>{menu === 'about' ? <img src={underline} alt='undeline menu line' /> : <></>}</li>
+                <li><Link to="services" smooth={true} duration={500} onClick={() => setMenu('services')}><p>Services</p></Link>{menu === 'services' ? <img src={underline} alt='undeline menu line' /> : <></>}</li>
+                <li><Link to="portfolio" smooth={true} duration={500} onClick={() => setMenu('portfolio')}><p>Portfolio</p></Link>{menu === 'portfolio' ? <img src={underline} alt='undeline menu line' /> : <></>}</li>
+                <li><Link to="contact" smooth={true} duration={500} onClick={() => setMenu('contact')}><p>Contact</p></Link>{menu === 'contact' ? <img src={underline} alt='undeline menu line' /> : <></>}</li>
             </ul>
-            <div className="nav-connect"><AnchorLink className='anchor-link' href='#contact'>Contact with me</AnchorLink></div>
+            <div className="nav-connect"><Link to="contact" smooth={true} duration={500}>Contact with me</Link></div>
         </div>
     )
 }
