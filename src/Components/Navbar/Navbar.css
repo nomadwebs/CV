@@ -33,31 +33,19 @@
     width: 180px;
 }
 
-/* 🔹 Media Query para pantallas pequeñas (móviles) */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-        margin: 10px 20px;
-    }
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
 
-    .logo {
-        width: 150px;
-        /* Reducir tamaño del logo */
-        margin-bottom: 10px;
-    }
+.nav-menu li img {
+    display: flex;
+    margin: auto;
+}
 
-    .nav-menu {
-        flex-direction: column;
-        gap: 20px;
-        font-size: 18px;
-        text-align: center;
-        padding: 0;
-    }
-
-    .nav-connect {
-        margin-top: 15px;
-        padding: 12px 25px;
-        font-size: 16px;
-    }
+.anchor-link {
+    text-decoration: none;
+    color: #FFFFFF;
 }

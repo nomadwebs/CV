@@ -3,11 +3,15 @@ import Hero from './Hero/Hero'
 import MyWork from './MyWork/MyWork'
 import Services from './Services/Services'
 import Navbar from './Navbar/Navbar'
+import Contact from './Contact/Contact'
+import Footer from './Footer/Footer'
 
 export {
     About,
     Hero,
     MyWork,
     Services,
-    Navbar
+    Navbar,
+    Contact,
+    Footer
 }
