@@ -9,16 +9,15 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="footer-top-left">
                     <img src={footer_logo} className='footer-logo' alt="fransanchez logo" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, libero aperiam? Beatae ullam veritatis facere sed distinctio quo nobis architecto nisi, numquam culpa atque pariatur, cumque est perspiciatis nostrum quas?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio </p>
                 </div>
-                <div className="footer-top-right">
+                {/* <div className="footer-top-right">
                     <div className="footer-email-input">
                         <img src={user_icon} alt="user icon" />
                         <input type="email" placeholder='Your best email' />
                     </div>
                     <div className="footer-subscribe">Subscribe</div>
-
-                </div>
+                </div> */}
             </div>
             <hr />
             <div className="footer-bottom">
@@ -28,8 +27,6 @@ const Footer = () => {
                     <p>Privaci Policy</p>
                     <p>Contact with me</p>
                 </div>
-
-
             </div>
         </div>
     )

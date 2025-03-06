@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div id='about' className='about'>
             <div className="about-title">
-                <h1>About me</h1>
+                <h2>About me</h2>
                 <img src={theme_pattern} alt="" />
             </div>
             <div className="about-sections">
@@ -16,32 +16,32 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus debitis alias consequuntur eos rerum officiis incidunt maiores a sed vero vel doloribus recusandae sint aliquid, nihil repudiandae possimus adipisci nobis?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet suscipit blanditiis!</p>
+                        <p>Passionate about technology, with a focus on innovation and the creation of digital solutions. My experience ranges from developing and optimizing processes in SAP to Full Stack programming, with a particular interest in integrating emerging technologies such as AI. I am committed to excellence, always striving to create value through the development of innovative products.</p>
+                        <p>Expert in cutting-edge technologies such as JavaScript, Node.js, React, Express, MongoDB, among others. Always eager to integrate and build teams at the forefront of digital innovation.</p>
                     </div>
                     <div className="about-skills">
-                        <div className="about-skill"><p>HTML5</p><hr style={{ width: "100%" }} /></div>
-                        <div className="about-skill"><p>CSS3</p><hr style={{ width: "80%" }} /></div>
-                        <div className="about-skill"><p>React JS</p><hr style={{ width: "70%" }} /></div>
-                        <div className="about-skill"><p>Javascript</p><hr style={{ width: "70%" }} /></div>
-                        <div className="about-skill"><p>Node JS</p><hr style={{ width: "90%" }} /></div>
+                        <div className="about-skill"><p>HTML5</p><hr style={{ width: "75%" }} /></div>
+                        <div className="about-skill"><p>CSS3</p><hr style={{ width: "70%" }} /></div>
+                        <div className="about-skill"><p>React JS</p><hr style={{ width: "60%" }} /></div>
+                        <div className="about-skill"><p>Javascript</p><hr style={{ width: "65%" }} /></div>
+                        <div className="about-skill"><p>Node JS</p><hr style={{ width: "65%" }} /></div>
                         <div className="about-skill"><p>MongoDB</p><hr style={{ width: "75%" }} /></div>
                     </div>
                 </div>
             </div>
             <div className="about-achievements">
                 <div className="about-achievement">
-                    <h1>10+</h1>
+                    <h3>10+</h3>
                     <p>Years of experience</p>
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>15+</h1>
+                    <h3>15+</h3>
                     <p>Projects completed</p>
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>27+</h1>
+                    <h3>27+</h3>
                     <p>Happy Customers</p>
                 </div>
             </div>

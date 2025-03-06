@@ -20,12 +20,12 @@ const Contact = () => {
     return (
         <div id='contact' className="contact">
             <div className="contact-title">
-                <h1>Get in touch</h1>
+                <h2>Get in touch</h2>
                 <img src={theme_pattern} alt="" />
             </div>
             <div className="contact-section">
                 <div className="contact-left">
-                    <h2>Let's talk</h2>
+                    <h3>Do you want to talk?</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi laboriosam voluptate dicta reiciendis aspernatur officiis possimus at, expedita debitis fugit sunt sit quasi dolorem itaque consequatur, iste provident. Ullam, ratione!</p>
                     <div className="contact-details">
                         <div className="contact-detail">

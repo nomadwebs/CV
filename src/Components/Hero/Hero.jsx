@@ -8,8 +8,8 @@ const Hero = () => {
     return (
         <div id='home' className="hero">
             <img src={profileImage} alt="profile image" />
-            <h1><span>Francisco Sánchez G. </span>full stack developer</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatem. Explicabo fuga omnis ut, porro quae numquam quidem rem consectetur adipisci natus id sunt beatae aut enim minima architecto eos.</p>
+            <h1><span>Francisco Sánchez G. </span>Full stack developer & more</h1>
+            <p>Passion for technology with a forward-thinking vision. I transform ideas into digital products that will enhance your company's value.</p>
             <div className="hero-action">
                 <div className="hero-connect"><Link to="contact" smooth={true} duration={500}>Contact with me</Link></div>
                 <div className="hero-resume">My resume</div>
