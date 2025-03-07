@@ -1,8 +1,45 @@
+/* Estilos para el top navigation bar */
+.top-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1F0016;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #DA7C25;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.icon {
+    font-size: 20px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px 170px;
+    position: relative;
+    top: 50px;
 }
 
 /* Menú principal */
@@ -85,6 +122,7 @@
         top: 30px;
         left: 290px;
         width: 30px;
+        margin-top: 50px;
     }
 
     .nav-mob-close:hover {

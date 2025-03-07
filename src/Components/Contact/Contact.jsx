@@ -26,7 +26,9 @@ const Contact = () => {
             <div className="contact-section">
                 <div className="contact-left">
                     <h3>Do you want to talk?</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi laboriosam voluptate dicta reiciendis aspernatur officiis possimus at, expedita debitis fugit sunt sit quasi dolorem itaque consequatur, iste provident. Ullam, ratione!</p>
+                    <p>Have a project in mind or need a digital hero to tackle your tech challenges? Whether it's crafting modern web solutions, managing your data like a pro, or integrating seamless APIs, let's make it happen together. Reach out and let's bring your ideas to life!"
+
+                        Feel free to adjust it as needed to fit your style or specific requirements.</p>
                     <div className="contact-details">
                         <div className="contact-detail">
                             <img src={mail_icon} alt="mail icon" /><p>hola@nomadwebs.com</p>

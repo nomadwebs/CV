@@ -8,34 +8,33 @@ import project6_img from '../assets/project_6.svg'
 const mywork_data = [
     {
         id: 1,
-        w_name: "Web design",
-        w_img: project1_img
+        w_name: "Hourify360",
+        description: 'Time Manager for freelancers',
+        w_img: project1_img,
+        tags: ['React', 'MongoDB', 'Mongoose', 'Express'],
+        github: 'https://github.com/nomadwebs/hourify',
+        link: 'https://hourify360.com/'
+
     },
     {
         id: 2,
-        w_name: "Web design",
-        w_img: project2_img
+        w_name: "Unsocial",
+        description: 'Social network like Instagram',
+        w_img: project2_img,
+        tags: ['React', 'MongoDB', 'Mongoose', 'Express'],
+        github: '#',
+        link: 'https://hourify360.com/'
     },
     {
         id: 3,
-        w_name: "Web design",
-        w_img: project3_img
+        description: 'My own portfolio',
+        w_name: "Francisco Sánchez G. Portfolio",
+        w_img: project3_img,
+        tags: ['React'],
+        github: 'https://github.com/nomadwebs/CV',
+        link: 'https://fransanchez.dev'
     },
-    {
-        id: 4,
-        w_name: "Web design",
-        w_img: project4_img
-    },
-    {
-        id: 5,
-        w_name: "Web design",
-        w_img: project5_img
-    },
-    {
-        id: 6,
-        w_name: "Web design",
-        w_img: project6_img
-    },
+
 ]
 
 export default mywork_data;
