@@ -15,7 +15,7 @@ const MyWork = () => {
             <div className="mywork-container">
                 {mywork_data.map((work, index) => {
                     return (
-                        <div>
+                        <div className='project-info'>
                             <img key={index} src={work.w_img} alt={work.w_name} />
                             <h3>{work.w_name}</h3>
                             <p>{work.description}</p>
@@ -26,7 +26,7 @@ const MyWork = () => {
                             </div>
                             <div className="project-links">
                                 <a href={work.github} target='_blank'><FaGithub className="icon" style={{ color: '#FFFFFF' }} /></a>
-                                <a href={work.link}><FaPlayCircle className="icon" style={{ color: '#FFFFFF' }} /></a>
+                                {work.link !== null ? <a href={work.link}><FaPlayCircle className="icon" style={{ color: '#FFFFFF' }} /></a> : <></>}
                             </div>
                         </div>
                     )

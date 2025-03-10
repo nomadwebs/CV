@@ -33,7 +33,7 @@
 .mywork-container img {
     box-sizing: border-box;
     width: 419px;
-    height: 280px;
+    /* height: 280px; */
     transition: 0.3s;
     cursor: pointer;
 }
@@ -82,7 +82,23 @@
     margin-top: 10px;
 }
 
-.project-links a {}
+.project-info h3 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8009 50%, #B415FF 100%);
+    background-clip: text;
+    /*gradient just in text*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-info p {
+    color: #d4d4d4;
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 300px;
+}
 
 .tag:hover {
     background-color: #DA7C25;
@@ -97,7 +113,7 @@
 @media(max-width:768px) {
     .mywork {
         gap: 50px;
-        margin: 80px 70px;
+        margin: 80px 50px;
         align-items: start;
     }
 

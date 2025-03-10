@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react"
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import './Navbar.css'
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/fransanchezdev_logo.svg'
 import underline from '../../assets/nav_underline.svg'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'

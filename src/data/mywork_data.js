@@ -1,9 +1,6 @@
-import project1_img from '../assets/project_1.svg'
-import project2_img from '../assets/project_2.svg'
-import project3_img from '../assets/project_3.svg'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
+import project1_img from '../assets/hourify.svg'
+import project2_img from '../assets/unsocial.svg'
+import project3_img from '../assets/portfolio.svg'
 
 const mywork_data = [
     {
@@ -22,8 +19,8 @@ const mywork_data = [
         description: 'Social network like Instagram',
         w_img: project2_img,
         tags: ['React', 'MongoDB', 'Mongoose', 'Express'],
-        github: '#',
-        link: 'https://hourify360.com/'
+        github: 'https://github.com/nomadwebs/UnsocialApp',
+        link: null
     },
     {
         id: 3,

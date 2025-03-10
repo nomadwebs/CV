@@ -20,7 +20,7 @@ const Contact = () => {
     return (
         <div id='contact' className="contact">
             <div className="contact-title">
-                <h2>Get in touch</h2>
+                <h2>Contact</h2>
                 <img src={theme_pattern} alt="" />
             </div>
             <div className="contact-section">
@@ -31,11 +31,14 @@ const Contact = () => {
                         Feel free to adjust it as needed to fit your style or specific requirements.</p>
                     <div className="contact-details">
                         <div className="contact-detail">
+                            <img src={mail_icon} alt="mail icon" /><p>fran.sanchezgil@gmail.com</p>
+                        </div>
+                        <div className="contact-detail">
                             <img src={mail_icon} alt="mail icon" /><p>hola@nomadwebs.com</p>
                         </div>
 
                         <div className="contact-detail">
-                            <img src={call_icon} alt="telephone icon" /><p>4445554344</p>
+                            <img src={call_icon} alt="telephone icon" /><p>619534737</p>
                         </div>
 
                         <div className="contact-detail">

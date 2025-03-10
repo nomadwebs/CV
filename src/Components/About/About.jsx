@@ -1,7 +1,8 @@
 import React from 'react';
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/profile1.jpeg'
+import profile_img_left from '../../assets/fransanchezg_left.webp'
+import profile_img_right from '../../assets/fransanchezg_right.webp'
 
 const About = () => {
     return (
@@ -12,7 +13,7 @@ const About = () => {
             </div>
             <div className="about-sections">
                 <div className="about-left">
-                    <img src={profile_img} alt="Francisco Sánchez G." />
+                    <img src={profile_img_left} alt="Francisco Sánchez G." />
                 </div>
                 <div className="about-right">
                     <div className="about-para">
@@ -44,15 +45,15 @@ const About = () => {
                     <div className="about-para">
                         <h3>More about me</h3>
                         <ul>
-                            <li>I have trained as a Full Stack Developer at ISDI Coders. Now I can create modern and efficient applications that solve real-world problems.</li>
-                            <li>I worked as a Project Manager at Desigual, implementing a multicarrier service in all stores across Europe.</li>
-                            <li>I have assisted over 50 clients with web projects.</li>
-                            <li>I have more than 10 years of experience working on big tech projects with SAP.</li>
+                            <li>I have trained as a <span className='featured-word'>Full Stack Developer</span> at ISDI Coders. Now I can create modern and efficient applications that solve real-world problems.</li>
+                            <li>I worked as a <span className='featured-word'>Project Manager</span> at Desigual, implementing a multicarrier service in all stores across Europe.</li>
+                            <li>I have assisted over <span className='featured-word'>50 customers</span> with web projects.</li>
+                            <li>I have more than <span className='featured-word'>10 years of experience</span> working on big tech projects with SAP.</li>
                         </ul>
                     </div>
                 </div>
                 <div className="about-left">
-                    <img src={profile_img} alt="Francisco Sánchez G." />
+                    <img src={profile_img_right} alt="Francisco Sánchez G." />
                 </div>
             </div>
         </div>

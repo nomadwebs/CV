@@ -48,6 +48,19 @@
     line-height: 35px;
 }
 
+.about-para ul {
+    list-style: none;
+}
+
+.about-para li {
+    padding-bottom: 30px;
+}
+
+.about-para li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .about-extra h3 {
     font-size: 50px;
     font-weight: 700;
@@ -97,10 +110,18 @@
     transition: 0.3s;
 }
 
+.featured-word {
+    font-weight: 500;
+    background: linear-gradient(270deg, #DF8009 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media(max-width:768px) {
     .about {
         gap: 80px;
-        margin: 50px 70px;
+        margin: 50px 60px;
         align-items: start;
     }
 
@@ -156,6 +177,10 @@
     .about-achievement p {
         text-align: center;
         font-size: 16px;
+    }
+
+    .about-extra h3 {
+        font-size: 35px;
     }
 
 }
