@@ -37,7 +37,7 @@ const mywork_data = [
         w_name: "Carta al futuro",
         description: 'A service to send letters to yourself in the future',
         w_img: cartaFuturo,
-        tags: ['PHP, MySQL, JavaScript, HTML, CSS, Bootstrap'],
+        tags: ['PHP', 'MySQL', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
         github: null,
         link: 'https://cartaalfuturo.com/'
     },
