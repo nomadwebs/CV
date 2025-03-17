@@ -1,6 +1,7 @@
 import project1_img from '../assets/hourify.svg'
 import project2_img from '../assets/unsocial.svg'
 import project3_img from '../assets/portfolio.svg'
+import cartaFuturo from '../assets/cartaalfuturo.svg'
 
 const mywork_data = [
     {
@@ -30,6 +31,15 @@ const mywork_data = [
         tags: ['React'],
         github: 'https://github.com/nomadwebs/CV',
         link: 'https://fransanchez.dev'
+    },
+    {
+        id: 4,
+        w_name: "Carta al futuro",
+        description: 'A service to send letters to yourself in the future',
+        w_img: cartaFuturo,
+        tags: ['PHP, MySQL, JavaScript, HTML, CSS, Bootstrap'],
+        github: null,
+        link: 'https://cartaalfuturo.com/'
     },
 
 ]

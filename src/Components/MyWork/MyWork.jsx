@@ -25,8 +25,8 @@ const MyWork = () => {
                                 ))}
                             </div>
                             <div className="project-links">
-                                <a href={work.github} target='_blank'><FaGithub className="icon" style={{ color: '#FFFFFF' }} /></a>
-                                {work.link !== null ? <a href={work.link}><FaPlayCircle className="icon" style={{ color: '#FFFFFF' }} /></a> : <></>}
+                                {work.github !== null ? <a href={work.github} target='_blank'><FaGithub className="icon" style={{ color: '#FFFFFF' }} /></a> : <></>}
+                                {work.link !== null ? <a href={work.link} target='_blank'><FaPlayCircle className="icon" style={{ color: '#FFFFFF' }} /></a> : <></>}
                             </div>
                         </div>
                     )
