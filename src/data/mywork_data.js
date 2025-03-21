@@ -2,6 +2,7 @@ import project1_img from '../assets/hourify.svg'
 import project2_img from '../assets/unsocial.svg'
 import project3_img from '../assets/portfolio.svg'
 import cartaFuturo from '../assets/cartaalfuturo.svg'
+import bookStore from '../assets/bookStore.svg'
 
 const mywork_data = [
     {
@@ -41,7 +42,14 @@ const mywork_data = [
         github: null,
         link: 'https://cartaalfuturo.com/'
     },
-
+    {
+        id: 5,
+        w_name: "Books and Guitars Store",
+        description: 'A simple store to sell books and guitars with cart in React',
+        w_img: bookStore,
+        tags: ['React', 'HTML5', 'CSS', 'Bootstrap'],
+        github: 'https://github.com/nomadwebs/bookStore',
+        link: 'https://voluble-nasturtium-11f72e.netlify.app/'
+    },
 ]
-
 export default mywork_data;
