@@ -52,4 +52,4 @@ const mywork_data = [
         link: 'https://voluble-nasturtium-11f72e.netlify.app/'
     },
 ]
-export default mywork_data;
+export default mywork_data; 
