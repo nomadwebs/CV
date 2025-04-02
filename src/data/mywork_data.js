@@ -3,6 +3,7 @@ import project2_img from '../assets/unsocial.svg'
 import project3_img from '../assets/portfolio.svg'
 import cartaFuturo from '../assets/cartaalfuturo.svg'
 import bookStore from '../assets/bookStore.svg'
+import tipCalculator from '../assets/tipCalculator.svg'
 
 const mywork_data = [
     {
@@ -50,6 +51,15 @@ const mywork_data = [
         tags: ['React', 'HTML5', 'CSS', 'Bootstrap'],
         github: 'https://github.com/nomadwebs/bookStore',
         link: 'https://voluble-nasturtium-11f72e.netlify.app/'
+    },
+    {
+        id: 5,
+        w_name: "Cart with tip calculator",
+        description: 'This cart includes a simple tip and tax calculator for the order',
+        w_img: tipCalculator,
+        tags: ['React', 'Typescript', 'HTML5', 'Tailwindcss'],
+        github: 'https://github.com/nomadwebs/tipCalculator',
+        link: 'https://graceful-phoenix-ae2915.netlify.app/'
     },
 ]
 export default mywork_data; 
