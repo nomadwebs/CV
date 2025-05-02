@@ -4,6 +4,7 @@ import project3_img from '../assets/portfolio.svg'
 import cartaFuturo from '../assets/cartaalfuturo.svg'
 import bookStore from '../assets/bookStore.svg'
 import tipCalculator from '../assets/tipCalculator.svg'
+import calorieCalculator from '../assets/caloriesCalculator.svg'
 
 const mywork_data = [
     {
@@ -60,6 +61,15 @@ const mywork_data = [
         tags: ['React', 'Typescript', 'HTML5', 'Tailwindcss'],
         github: 'https://github.com/nomadwebs/tipCalculator',
         link: 'https://graceful-phoenix-ae2915.netlify.app/'
+    },
+    {
+        id: 6,
+        w_name: "Calorie Calculator",
+        description: 'This is a simple calorie calculator when you can track your calories consume.',
+        w_img: calorieCalculator,
+        tags: ['React', 'Typescript', 'HTML5', 'Tailwindcss'],
+        github: 'https://github.com/nomadwebs/CaloriesCalculator',
+        link: 'https://zesty-cat-b34760.netlify.app/'
     },
 ]
 export default mywork_data; 
